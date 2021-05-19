@@ -1,0 +1,228 @@
+
+
+.background{
+  background-color: white;
+
+}
+
+div.column{
+
+    display: inline-block;
+
+}
+
+hr.intro{
+   width: 600px;
+   height: 3px;
+   background-color: black;
+   border: none;
+
+}
+
+div.header{
+
+    padding: 20px;
+    background-color: #1d4d4f;
+    font-family: arial;
+    text-align: center;
+    color:#e5dfdf;
+
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  display: inline;
+
+}
+
+hr{
+  width: 75%;
+  height:3px;
+  background: black;
+  border:none;
+  text-align:left;
+  margin:0;
+
+}
+
+ol.sequence{
+  list-style-type: upper-alpha;
+  background: #004445;
+  font-family: arial;
+color:#e5dfdf;  display: bold;
+  width: 85%;
+  font-weight: bold;
+  padding-left: 50px;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size:1.5em;
+}
+ol.sequence2{
+  list-style-type: upper-alpha;
+  background: #004445;
+  font-family: arial;
+color:#e5dfdf;  display: bold;
+  width: 80%;
+  font-weight: bold;
+  padding-left: 50px;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size:1.5em;
+}
+ol.sequence3{
+  list-style-type: upper-alpha;
+  background: #004445;
+  font-family:  arial;
+color:#e5dfdf;  display: bold;
+  width: 70%;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size:1.5em;
+}
+
+ol.number{
+  list-style-type:upper-roman;
+  background: #004445;
+  font-family:  arial;
+color:#e5dfdf;  display: bold;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size:1.5em;
+
+}
+ol.number2{
+list-style-type:upper-roman;
+  background: #004445;
+  font-family:  arial;
+color:#e5dfdf;  display: bold;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size:1.5em;
+}
+
+ol.Skills{
+list-style-type:upper-roman;
+  background: #004445;
+  font-family:  arial;
+color:#e5dfdf;  display: bold;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left:55px;
+  font-size:1.5em;
+
+}
+ol.Acads{
+list-style-type:upper-roman;
+  background: #004445;
+  font-family:  arial;
+color:#e5dfdf;  display: bold;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left:55px;
+  font-size:1.5em;
+
+}
+.acads{
+font-size:1.3em;
+padding-left: 30px;
+
+}
+
+
+div.Edu{
+font-size:1.3em;
+padding-left: 30px;
+}
+
+ul.L{
+  list-style-image: url('../IMAGE/circle.png');
+  font-weight: bold;
+  font-size:1.3em;
+}
+.PD{
+  text-align: justify;
+  margin-left: 5px;
+  padding: 0;
+  font-size:1.3em;
+}
+
+.SM{
+ text-align: justify;
+  margin-left: 5px;
+  padding: 0;
+  font-size:1.3em;
+}
+
+hr.half{
+  width: 70%;
+  height: 10px;
+  margin-right: 90%;
+  background-color: black;
+  border:none;
+}
+
+h1{
+}
+
+div.left{
+  flex: 30%;
+  background-color:#357376 ;
+}
+
+div.body{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+div.main{
+    background-color:#6ba8a9;
+  flex: 70%;
+
+}
+body{
+  font-family: arial;
+  font-size:1.3em;
+  margin:0;
+}
+
+p.object{
+font-family:arial;
+font-size:1.3em;
+}
+.sl{
+text-align: justify;
+  margin-left: 5px;
+  padding: 0;
+  font-size:1.3em;
+}
+.button {
+  background-color: #445c3c;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.125em;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  }
+a{
+  text-decoration: none;
+  color: white ;
+}

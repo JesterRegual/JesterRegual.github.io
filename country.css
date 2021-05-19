@@ -1,0 +1,62 @@
+
+h1{
+  text-align: center;
+  font-size:50px;
+  font-family:Tahoma;
+}
+
+body {
+  background: url(bg2.png) center center/cover no-repeat fixed padding-box border-box #ccc;
+}
+
+img{
+  height: 200px;
+  width: 300px;
+
+}
+
+p{
+  font-size: 1.125em;
+}
+
+div.all{
+
+  float: right;
+  width: 1000px;
+  height: 500px;
+  padding-top:100px;
+
+
+}
+
+div.par{
+ font-size:1.125em;
+ font-family: Arial;
+ text-align: justify;
+ padding:15px;
+
+
+}
+
+div.container{
+ text-align:center;
+}
+
+.button {
+  background-color: #445c3c;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.125em;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  }
+a{
+  text-decoration: none;
+  color: white ;
+}

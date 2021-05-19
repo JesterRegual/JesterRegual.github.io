@@ -1,0 +1,33 @@
+img{
+  border: 0px;
+  margin: 0px;
+}
+img.pic{
+  height: 100px;
+  width: 100px;
+}
+body{
+  background-color: #018383;
+  padding: 0px;
+  margin: 3px;
+  border: 0px;
+}
+
+.button {
+  background-color: #445c3c;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.125em;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  }
+a{
+  text-decoration: none;
+  color: white ;
+}

@@ -1,0 +1,110 @@
+h1{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: white;
+  background-color:#018383;
+  width: 20%;
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+  background: #004445;
+  font-family: sans-serif;
+}
+.conatiner{
+  width: 1280px;
+  margin: 70px auto 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.conatiner .box{
+  position:relative;
+  background: #ff0;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.conatiner .box .imgBox{
+  position: relative;
+    flex-wrap: wrap;
+    overflow: hidden;
+
+}
+
+
+.conatiner .box .imgBox img{
+  max-width: 100%;
+  transition: transform 2s;
+  flex-wrap: wrap;
+  margin: auto;
+  height: 305px;
+  width: 100%;
+
+
+}
+
+.conatiner .box:hover .imgBox img{
+  transform: scale(1.2);
+
+}
+.conatiner .box .details{
+  position: absolute;
+  top:10px;
+  left: 10px;
+  right:10px;
+  bottom: 10px;
+  background: rgba(0, 0, 0,.8);
+  transform: scaleY(0);
+  transition: transform .5s;
+
+}
+.conatiner .box:hover .details{
+  transform: scaleY(1);
+
+}
+
+.conatiner .box .details .content{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  padding: 15px;
+  color: #fff;
+
+}
+.conatiner .box .details .content h2{
+  padding: 0;
+  margin: 0;
+  color: #ff0;
+
+}
+.conatiner .box .details .content p{
+  margin: 10px 0 0;
+  padding: 0;
+
+}
+.button {
+  background-color: #445c3c;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.125em;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  }
+a{
+  text-decoration: none;
+  color: white ;
+}

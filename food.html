@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>FOODS</title>
+<style>
+.main {
+
+	      background-color:#004445;
+				padding: 1%;
+				text-align: center;
+
+}
+body {
+	      padding: 10px;
+				background-color:#004445;
+}
+
+.box {
+	     height: 500px;
+			 width: 400px;
+			 background-color:#018383;
+			 margin: 1%;
+			 display: inline-block;
+			 padding: 2%;
+			 border: 5px solid white;
+}
+img {
+	    height: 200px;
+			width: auto;
+	    object-fit: cover;
+}
+
+
+
+.flip-card-back p {
+	font-family: Arial;
+	color: white;
+	padding: 15px;
+	text-align: center;
+  font-size: 1.125em;
+
+}
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	border-radius: 50%;
+
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+	border-radius: 50%;
+	border: 3px solid white;
+	width: 100%;
+  height: 100%;
+
+}
+
+.flip-card-back {
+  background-color: #004445;
+  color: white;
+  transform: rotateY(180deg);
+	border: 3px solid #f6f078;
+	border-radius: 50%;
+}
+
+
+.flip-card-front img{
+	  width:100%;
+		height:100%;
+	  margin: auto;
+		text-align: center;
+		border-radius: 50%;
+
+}
+
+.cast {
+	     display: block;
+}
+
+.cast h2{
+	color: #ffd271;
+	font-family: 'Century Gothic';
+}
+
+
+.cast img {
+	width:93px;
+	height:95px;
+	border-radius:50%;
+	display: inline-block;
+	margin:2px 2px 2px;
+	border:1px solid #f6f078;
+	padding:0px;
+}
+
+.main a {
+  background-color: black;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 30px;
+}
+h1{
+	  font-family: 'Century Gothic';
+		font-size: 70px;
+		color: #ffd271;
+}
+
+.flip-card-back h2{
+	color: #ffd271;
+	font-family: 'Century Gothic';
+
+}
+
+h3{
+	font-family: arial;
+	color: black;
+}
+button{
+
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+
+}
+.button a{
+  background-color: #445c3c;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.125em;
+  margin:0;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  }
+.button a{
+  text-decoration: none;
+  color: white ;
+}
+
+p{
+  font-size:1.125em;
+  font-family:'century gothic';
+  text-align: justify;
+  font-weight:bold;
+}
+
+
+</style>
+</head>
+<body>
+
+
+<div class="main">
+	<h1> "MY FAVORITE FOODS" </h1>
+<div align="center">
+	<div class="box">
+		<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="sinigang.jpg" alt="food"/>
+    </div>
+    <div class="flip-card-back">
+    <h2>SINIGANG</h2>
+    <p>My favorite food ever.</p>
+    </div>
+  </div>
+</div>
+<div class="cast">
+	<h2> SINIGANG </h2>
+  <p>Sinigang na baboy with Gabi is a Filipino pork soup with taro cooked in a sour broth. Sinigang is my comfort food.</p>
+</div>
+</div>
+
+<div class="box">
+  <div class="flip-card">
+<div class="flip-card-inner">
+  <div class="flip-card-front">
+    <img src="pizza.jpg" alt="food"/>
+  </div>
+  <div class="flip-card-back">
+  <h2>PIZZA</h2>
+  <p>My favorite snack.</p>
+  </div>
+</div>
+</div>
+<div class="cast">
+<h2> PIZZA </h2>
+<p>In Italy, pizza served in formal settings, such as at a restaurant, is presented unsliced and eaten with the use of a knife and fork.</p>
+</div>
+</div>
+
+
+<div class="box">
+  <div class="flip-card">
+<div class="flip-card-inner">
+  <div class="flip-card-front">
+    <img src="ice.jpeg" alt="food"/>
+  </div>
+  <div class="flip-card-back">
+  <h2>ICE CREAM</h2>
+  <p>My comfort food.</p>
+  </div>
+</div>
+</div>
+<div class="cast">
+<h2> ICECREAM </h2>
+<p>Ice cream is a sweetened frozen food typically eaten as a snack or dessert. It may be made from dairy milk or cream.</p>
+</div>
+</div>
+
+<div class="box">
+  <div class="flip-card">
+<div class="flip-card-inner">
+  <div class="flip-card-front">
+    <img src="milktea.jpg" alt="food"/>
+  </div>
+  <div class="flip-card-back">
+  <h2>MILK TEA</h2>
+  <p>My favorite drink.</p>
+  </div>
+</div>
+</div>
+<div class="cast">
+<h2> MILK TEA </h2>
+<p>Milk tea refers to several forms of beverage found in many cultures, containing some combination of tea and milk. </p>
+</div>
+</div>
+
+<div class="box">
+  <div class="flip-card">
+<div class="flip-card-inner">
+  <div class="flip-card-front">
+    <img src="kwek.jpg" alt="food"/>
+  </div>
+  <div class="flip-card-back">
+  <h2>KWEK - KWEK</h2>
+  <p>My favorite street food ever.</p>
+  </div>
+</div>
+</div>
+<div class="cast">
+<h2> KWEK - KWEK </h2>
+<p>Kwek-kwek made of quail eggs coated with an orange batter and deep-fried to golden perfection. </p>
+</div>
+</div>
+
+<div class="box">
+  <div class="flip-card">
+<div class="flip-card-inner">
+  <div class="flip-card-front">
+    <img src="steak.jpg" alt="food"/>
+  </div>
+  <div class="flip-card-back">
+  <h2>RIBEYESTEAK</h2>
+  <p>My always craving food.</p>
+  </div>
+</div>
+</div>
+<div class="cast">
+<h2> RIBEYE STEAK </h2>
+<p>Is a meat generally sliced across the muscle fibers, potentially including a bone.It's so yummy! </p>
+</div>
+</div>
+
+
+</div>
+	</div>
+<br>
+<br>
+<center>
+	<button class="button"><a href="menu.html">BACK TO HOMEPAGE</a></button>
+</center>
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>
